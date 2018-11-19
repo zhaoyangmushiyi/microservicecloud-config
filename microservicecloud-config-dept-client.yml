@@ -22,7 +22,7 @@ spring:
       max-wait-millis: 200 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.atguigu.springcloud.entities
+  type-aliases-package: com.momochrome.springcloud.entities
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
  
@@ -35,8 +35,8 @@ eureka:
     prefer-ip-address: true
  
 info:
-  app.name: atguigu-microservicecloud-springcloudconfig01
-  company.name: www.atguigu.com
+  app.name: monochrome-microservicecloud-springcloudconfig01
+  company.name: www.monochrome.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
@@ -61,7 +61,7 @@ spring:
   
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.atguigu.springcloud.entities
+  type-aliases-package: com.momochrome.springcloud.entities
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
  
@@ -74,8 +74,8 @@ eureka:
     prefer-ip-address: true
  
 info:
-  app.name: atguigu-microservicecloud-springcloudconfig02
-  company.name: www.atguigu.com
+  app.name: monochrome-microservicecloud-springcloudconfig02
+  company.name: www.monochrome.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
